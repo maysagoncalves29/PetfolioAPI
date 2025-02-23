@@ -1,4 +1,5 @@
-﻿using Petfolio.Communication.Response;
+﻿using Petfolio.Communication.Requests;
+using Petfolio.Communication.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace Petfolio.Application.UseCases.Pet.Register;
 public class RegisterPetUseCase
 {
-    public ResponseRegisteredPetJson Execute(ResponseRegisteredPetJson request)
+    public ResponseRegisteredPetJson Execute(RequestPetJson request)
     {
         return new ResponseRegisteredPetJson
         {
