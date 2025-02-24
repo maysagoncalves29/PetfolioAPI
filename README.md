@@ -1,4 +1,5 @@
 --- Repositório para os meus estudos pessoais ----
+Documentando alguins conceitos que tive dificuldade de entender de início
 
 # PetController - Explicação dos Conceitos
 
