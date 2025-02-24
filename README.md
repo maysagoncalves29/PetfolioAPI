@@ -54,11 +54,5 @@ Outros exemplos comuns:
 - `return BadRequest(errors);` → Retorna status 400 com erros.
 - `return NotFound();` → Retorna status 404 se o recurso não for encontrado.
 
-
-## Conclusão
-Esses conceitos são fundamentais para criar APIs REST com **ASP.NET Core**. O `PetController` segue boas práticas ao utilizar **Controllers**, **Use Cases** e **tipos de resposta padronizados**.
-
-Se você é iniciante, vale a pena testar e modificar esse código para entender melhor como funcionam os controllers no ASP.NET Core!
-
 Fique à vontade para contribuir e deixar sugestões! :)
 
