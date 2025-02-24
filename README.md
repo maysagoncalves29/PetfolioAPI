@@ -17,8 +17,6 @@ public class PetController : ControllerBase
 - **[ApiController]**: Informa que a classe é um controller de API, ativando recursos como validação automática de entradas e respostas HTTP padronizadas.
 - **ControllerBase**: Uma classe base para controllers de API, sem suporte para Views (diferente de `Controller`, que é usado em MVC).
 
----
-
 ## [ProducesResponseType]
 Este atributo é utilizado para documentar os possíveis retornos de um endpoint.
 
@@ -33,7 +31,6 @@ Exemplo no método `GetAll`:
 
 Esse atributo ajuda no Swagger (documentação da API) e facilita o entendimento do comportamento dos endpoints.
 
----
 
 ## IActionResult
 A interface `IActionResult` é usada para definir o tipo de resposta que um endpoint retorna.
@@ -56,7 +53,6 @@ Outros exemplos comuns:
 - `return BadRequest(errors);` → Retorna status 400 com erros.
 - `return NotFound();` → Retorna status 404 se o recurso não for encontrado.
 
----
 
 ## Conclusão
 Esses conceitos são fundamentais para criar APIs REST com **ASP.NET Core**. O `PetController` segue boas práticas ao utilizar **Controllers**, **Use Cases** e **tipos de resposta padronizados**.
